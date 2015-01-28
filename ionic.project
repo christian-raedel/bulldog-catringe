@@ -1,0 +1,15 @@
+{
+  "name": "Catringe",
+  "app_id": "com.bulldog.catringe",
+  "gulpStartupTasks": [
+    "sass",
+    "templates",
+    "javascripts",
+    "watch"
+  ],
+  "watchPatterns": [
+    "app/**/*.js",
+    "!app/**/*.spec.js",
+    "templates/**/*.tpl.html"
+  ]
+}
